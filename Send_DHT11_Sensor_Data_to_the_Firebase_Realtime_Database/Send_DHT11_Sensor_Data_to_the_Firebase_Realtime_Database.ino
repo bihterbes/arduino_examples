@@ -1,3 +1,4 @@
+//---------------------------------------------------------------------------------Send DHT11 Sensor Data to the Firebase Realtime Database
 #include <ESP8266WiFi.h>
 #include <FirebaseArduino.h>
 #include <ArduinoJson.h>
