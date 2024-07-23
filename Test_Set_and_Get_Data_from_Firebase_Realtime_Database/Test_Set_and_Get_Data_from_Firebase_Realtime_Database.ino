@@ -5,14 +5,14 @@
 #include <ArduinoJson.h>
 #include <ESP8266HTTPClient.h>
 
-#define FIREBASE_HOST "nodemcufirebaseornek-default-rtdb.firebaseio.com" //--> URL address of your Firebase Realtime Database.
-#define FIREBASE_AUTH "hCJaKrOUXSPNOeKyQy7QQniolzioCaSXx0Zovaqz" //--> Your firebase database secret code.
+#define FIREBASE_HOST "**********" //--> URL address of your Firebase Realtime Database.
+#define FIREBASE_AUTH "***************" //--> Your firebase database secret code.
 
 #define ON_Board_LED 2  //--> Defining an On Board LED, used for indicators when the process of connecting to a wifi router
 
 //----------------------------------------SSID and Password of your WiFi router.
-const char* ssid = "simit"; //--> Your wifi name or SSID.
-const char* password = "kamisama"; //--> Your wifi password.
+const char* ssid = "****"; //--> Your wifi name or SSID.
+const char* password = "*****"; //--> Your wifi password.
 //----------------------------------------
 
 long randNumber;
